@@ -12,8 +12,6 @@
 		B9B4ACC02264E308007754D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B4ACBE2264E308007754D1 /* LaunchScreen.storyboard */; };
 		B9B4AE192264E414007754D1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4ACEC2264E413007754D1 /* BaseViewController.swift */; };
 		B9B4AE1A2264E414007754D1 /* tabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4ACED2264E413007754D1 /* tabViewController.swift */; };
-		B9B4AE1E2264E414007754D1 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4ACF42264E413007754D1 /* signUpViewController.swift */; };
-		B9B4AE1F2264E414007754D1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4ACF62264E413007754D1 /* WelcomeViewController.swift */; };
 		B9B4AE202264E414007754D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4ACF82264E413007754D1 /* LoginViewController.swift */; };
 		B9B4AE212264E414007754D1 /* CompletionHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4ACFB2264E413007754D1 /* CompletionHandlers.swift */; };
 		B9B4AE2A2264E414007754D1 /* ConstantsAndKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4AD082264E413007754D1 /* ConstantsAndKeys.swift */; };
@@ -98,8 +96,6 @@
 		B9B4ACC12264E308007754D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9B4ACEC2264E413007754D1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B9B4ACED2264E413007754D1 /* tabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabViewController.swift; sourceTree = "<group>"; };
-		B9B4ACF42264E413007754D1 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
-		B9B4ACF62264E413007754D1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B9B4ACF82264E413007754D1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B9B4ACFB2264E413007754D1 /* CompletionHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletionHandlers.swift; sourceTree = "<group>"; };
 		B9B4AD082264E413007754D1 /* ConstantsAndKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsAndKeys.swift; sourceTree = "<group>"; };
@@ -211,10 +207,10 @@
 				B9B4ADE42264E414007754D1 /* Controls */,
 				B9B4AD672264E413007754D1 /* CustomClasses */,
 				B9B4AD4C2264E413007754D1 /* Models */,
-				B9B4ADE22264E414007754D1 /* Storyboard */,
 				B9B4ADD82264E414007754D1 /* SupportingFiles */,
 				B9B4ACF92264E413007754D1 /* Utils */,
 				B9B4ACC72264E413007754D1 /* ViewControllers */,
+				B9B4ADE22264E414007754D1 /* Storyboard */,
 				B9B4ACB52264E307007754D1 /* AppDelegate.swift */,
 				B9B4ACBC2264E308007754D1 /* Assets.xcassets */,
 				B9B4ACBE2264E308007754D1 /* LaunchScreen.storyboard */,
@@ -244,27 +240,9 @@
 		B9B4ACF22264E413007754D1 /* LOGIN */ = {
 			isa = PBXGroup;
 			children = (
-				B9B4ACF32264E413007754D1 /* signUpViewController */,
-				B9B4ACF52264E413007754D1 /* WelcomeViewController */,
 				B9B4ACF72264E413007754D1 /* LoginViewController */,
 			);
 			path = LOGIN;
-			sourceTree = "<group>";
-		};
-		B9B4ACF32264E413007754D1 /* signUpViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B9B4ACF42264E413007754D1 /* signUpViewController.swift */,
-			);
-			path = signUpViewController;
-			sourceTree = "<group>";
-		};
-		B9B4ACF52264E413007754D1 /* WelcomeViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B9B4ACF62264E413007754D1 /* WelcomeViewController.swift */,
-			);
-			path = WelcomeViewController;
 			sourceTree = "<group>";
 		};
 		B9B4ACF72264E413007754D1 /* LoginViewController */ = {
@@ -1052,7 +1030,6 @@
 				B9B4AE2F2264E414007754D1 /* UtilFunctions.swift in Sources */,
 				B9B4AE892264E414007754D1 /* CHCollectionViewItemList.swift in Sources */,
 				B9B4AE5A2264E414007754D1 /* cellSideMenu.swift in Sources */,
-				B9B4AE1E2264E414007754D1 /* signUpViewController.swift in Sources */,
 				B9B4AE412264E414007754D1 /* Extension_UIButton.swift in Sources */,
 				B9B4AE4C2264E414007754D1 /* Extension_UITableView.swift in Sources */,
 				B9B4AE302264E414007754D1 /* AIValidationManager.swift in Sources */,
@@ -1060,7 +1037,6 @@
 				B9B4AEAB2264E414007754D1 /* AIImagePickerController.swift in Sources */,
 				B9B4AE422264E414007754D1 /* UISegmentControl.swift in Sources */,
 				B9B4AEA92264E414007754D1 /* AICollectionView.swift in Sources */,
-				B9B4AE1F2264E414007754D1 /* WelcomeViewController.swift in Sources */,
 				B9B4AEA62264E414007754D1 /* MJBadgeBarButton.swift in Sources */,
 				B9B4AEA52264E414007754D1 /* AIButton.swift in Sources */,
 				B9B4AE4B2264E414007754D1 /* Extension_UIView.swift in Sources */,

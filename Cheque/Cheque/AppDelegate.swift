@@ -133,7 +133,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func changeRootToHomeVC(){
         
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let navigationController: UINavigationController = UINavigationController.init(rootViewController: mainStoryboard.instantiateViewController(withIdentifier: "foodFromViewController"))
+        let navigationController: UINavigationController = UINavigationController.init(rootViewController: mainStoryboard.instantiateViewController(withIdentifier: "LoginViewController"))
         let leftView : UIViewController = mainStoryboard.instantiateViewController(withIdentifier: "LeftMenuViewController")
         let rightView : UIViewController =  mainStoryboard.instantiateViewController(withIdentifier: "LeftMenuViewController")
         
