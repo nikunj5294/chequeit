@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		329462DBF3F8EA6E388B3B64 /* Pods_Chequeit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1176F401612917456F8AFB /* Pods_Chequeit.framework */; };
+		4F8752A72264EDEB003FE7AB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F8752A52264EDEB003FE7AB /* Localizable.strings */; };
 		B9B4AEF92264E8ED007754D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4AEF82264E8ED007754D1 /* AppDelegate.swift */; };
 		B9B4AEFB2264E8ED007754D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4AEFA2264E8ED007754D1 /* ViewController.swift */; };
 		B9B4AEFE2264E8ED007754D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B4AEFC2264E8ED007754D1 /* Main.storyboard */; };
@@ -15,6 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		022B85CD6B00C6B0CAD97C80 /* Pods-Chequeit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chequeit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chequeit/Pods-Chequeit.release.xcconfig"; sourceTree = "<group>"; };
+		4C1176F401612917456F8AFB /* Pods_Chequeit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chequeit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8752A42264EDD9003FE7AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		4F8752A62264EDEB003FE7AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4F8752A82264EE19003FE7AB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		4F8752A92264EE19003FE7AB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4F8752AA2264EE1A003FE7AB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B9B4AEF52264E8ED007754D1 /* Chequeit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chequeit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B4AEF82264E8ED007754D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9B4AEFA2264E8ED007754D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		B9B4AEFF2264E8ED007754D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9B4AF022264E8ED007754D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9B4AF042264E8ED007754D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECE8357416D8B0DB54D2B1E /* Pods-Chequeit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chequeit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chequeit/Pods-Chequeit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329462DBF3F8EA6E388B3B64 /* Pods_Chequeit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABE24AE5C11A530B8915FB0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C1176F401612917456F8AFB /* Pods_Chequeit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9B4AEEC2264E8ED007754D1 = {
 			isa = PBXGroup;
 			children = (
 				B9B4AEF72264E8ED007754D1 /* Chequeit */,
 				B9B4AEF62264E8ED007754D1 /* Products */,
+				F070E3E4FD83180205885E8F /* Pods */,
+				ABE24AE5C11A530B8915FB0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +81,18 @@
 				B9B4AEFF2264E8ED007754D1 /* Assets.xcassets */,
 				B9B4AF012264E8ED007754D1 /* LaunchScreen.storyboard */,
 				B9B4AF042264E8ED007754D1 /* Info.plist */,
+				4F8752A52264EDEB003FE7AB /* Localizable.strings */,
 			);
 			path = Chequeit;
+			sourceTree = "<group>";
+		};
+		F070E3E4FD83180205885E8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DECE8357416D8B0DB54D2B1E /* Pods-Chequeit.debug.xcconfig */,
+				022B85CD6B00C6B0CAD97C80 /* Pods-Chequeit.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9B4AF072264E8ED007754D1 /* Build configuration list for PBXNativeTarget "Chequeit" */;
 			buildPhases = (
+				5B5D4DECE25B29FFB9A20C25 /* [CP] Check Pods Manifest.lock */,
 				B9B4AEF12264E8ED007754D1 /* Sources */,
 				B9B4AEF22264E8ED007754D1 /* Frameworks */,
 				B9B4AEF32264E8ED007754D1 /* Resources */,
+				842856E0EE7C2325BCF6E6AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -106,6 +139,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = B9B4AEEC2264E8ED007754D1;
 			productRefGroup = B9B4AEF62264E8ED007754D1 /* Products */;
@@ -123,12 +157,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9B4AF032264E8ED007754D1 /* LaunchScreen.storyboard in Resources */,
+				4F8752A72264EDEB003FE7AB /* Localizable.strings in Resources */,
 				B9B4AF002264E8ED007754D1 /* Assets.xcassets in Resources */,
 				B9B4AEFE2264E8ED007754D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B5D4DECE25B29FFB9A20C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chequeit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		842856E0EE7C2325BCF6E6AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chequeit/Pods-Chequeit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/EVReflection/EVReflection.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JTProgressHUD/JTProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVReflection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chequeit/Pods-Chequeit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9B4AEF12264E8ED007754D1 /* Sources */ = {
@@ -143,10 +231,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4F8752A52264EDEB003FE7AB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8752A62264EDEB003FE7AB /* en */,
+				4F8752AA2264EE1A003FE7AB /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		B9B4AEFC2264E8ED007754D1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B9B4AEFD2264E8ED007754D1 /* Base */,
+				4F8752A42264EDD9003FE7AB /* en */,
+				4F8752A82264EE19003FE7AB /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,6 +254,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B9B4AF022264E8ED007754D1 /* Base */,
+				4F8752A92264EE19003FE7AB /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -280,9 +382,11 @@
 		};
 		B9B4AF082264E8ED007754D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECE8357416D8B0DB54D2B1E /* Pods-Chequeit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Chequeit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +394,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.yanay.Chequeit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +402,11 @@
 		};
 		B9B4AF092264E8ED007754D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022B85CD6B00C6B0CAD97C80 /* Pods-Chequeit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Chequeit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +414,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.yanay.Chequeit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
