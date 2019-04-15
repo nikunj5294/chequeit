@@ -11,5 +11,6 @@ pod 'EVReflection/MoyaRxSwift'
 pod 'SwifterSwift'
 pod 'JTProgressHUD’
 pod 'IQKeyboardManager'
+pod 'TPKeyboardAvoidingSwift'
 
 end

@@ -41,12 +41,14 @@ PODS:
   - SwifterSwift/SpriteKit (5.0.0)
   - SwifterSwift/SwiftStdlib (5.0.0)
   - SwifterSwift/UIKit (5.0.0)
+  - TPKeyboardAvoidingSwift (3.1)
 
 DEPENDENCIES:
   - EVReflection/MoyaRxSwift
   - IQKeyboardManager
   - JTProgressHUD
   - SwifterSwift
+  - TPKeyboardAvoidingSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -58,6 +60,7 @@ SPEC REPOS:
     - Result
     - RxSwift
     - SwifterSwift
+    - TPKeyboardAvoidingSwift
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
@@ -68,7 +71,8 @@ SPEC CHECKSUMS:
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SwifterSwift: 96f90594b370802f01647c2b1229c74a84ffafee
+  TPKeyboardAvoidingSwift: b518d6e0c325d62ef5bddb712f22852b41cd165c
 
-PODFILE CHECKSUM: d7b55d5a0433dcc6493bc65e1ffbcebfdb5004f0
+PODFILE CHECKSUM: 1fffa1cb9f7edfb28cca2fd3b958d4cccaf80305
 
 COCOAPODS: 1.5.3
