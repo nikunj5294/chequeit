@@ -12,5 +12,6 @@ pod 'SwifterSwift'
 pod 'JTProgressHUD’
 pod 'IQKeyboardManager'
 pod 'TPKeyboardAvoidingSwift'
+pod 'ReachabilitySwift'
 
 end
