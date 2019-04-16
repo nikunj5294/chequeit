@@ -89,6 +89,7 @@
 		4F0BC8F9226508CD008553B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BC8F8226508CD008553B9 /* AppDelegate.swift */; };
 		4F0BC8FC22650CD9008553B9 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BC8FB22650CD7008553B9 /* Reachability.swift */; };
 		4F8752A72264EDEB003FE7AB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F8752A52264EDEB003FE7AB /* Localizable.strings */; };
+		B9982AA22266445500FC2280 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9982AA12266445500FC2280 /* Info.plist */; };
 		B9B4AF002264E8ED007754D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B4AEFF2264E8ED007754D1 /* Assets.xcassets */; };
 		B9B4AF032264E8ED007754D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B4AF012264E8ED007754D1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -181,10 +182,10 @@
 		4F8752A62264EDEB003FE7AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4F8752A92264EE19003FE7AB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		4F8752AA2264EE1A003FE7AB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9982AA12266445500FC2280 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Cheque/Cheque/Info.plist; sourceTree = "<group>"; };
 		B9B4AEF52264E8ED007754D1 /* Chequeit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chequeit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B4AEFF2264E8ED007754D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9B4AF022264E8ED007754D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B9B4AF042264E8ED007754D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DECE8357416D8B0DB54D2B1E /* Pods-Chequeit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chequeit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chequeit/Pods-Chequeit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -945,7 +946,7 @@
 				4F0BC8142265075F008553B9 /* Utils */,
 				B9B4AEFF2264E8ED007754D1 /* Assets.xcassets */,
 				B9B4AF012264E8ED007754D1 /* LaunchScreen.storyboard */,
-				B9B4AF042264E8ED007754D1 /* Info.plist */,
+				B9982AA12266445500FC2280 /* Info.plist */,
 				4F8752A52264EDEB003FE7AB /* Localizable.strings */,
 			);
 			path = Chequeit;
@@ -1021,6 +1022,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9982AA22266445500FC2280 /* Info.plist in Resources */,
 				4F0BC8C92265075F008553B9 /* cellSettingHeader.xib in Resources */,
 				4F0BC8CD2265075F008553B9 /* CellFoodFrom.xib in Resources */,
 				B9B4AF032264E8ED007754D1 /* LaunchScreen.storyboard in Resources */,
@@ -1321,7 +1323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Chequeit/Info.plist;
+				INFOPLIST_FILE = /Users/govindravaliya/Documents/GIT/chequeit/Cheque/Cheque/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1341,7 +1343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Chequeit/Info.plist;
+				INFOPLIST_FILE = /Users/govindravaliya/Documents/GIT/chequeit/Cheque/Cheque/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
